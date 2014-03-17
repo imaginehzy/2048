@@ -53,7 +53,7 @@ h1.title {
   float: right;
   text-align: right; }
 
-.score-container, .best-container, .play-container {
+.score-container, .best-container, .play-container  {
   position: relative;
   display: inline-block;
   background: #bbada0;
@@ -76,7 +76,7 @@ h1.title {
     line-height: 13px;
     text-align: center;
     color: #eee4da; }
-  .score-container .score-addition, .best-container .score-addition {
+  .score-container .score-addition, .best-container .score-addition ,{
     position: absolute;
     right: 30px;
     color: red;
@@ -99,7 +99,7 @@ h1.title {
   content: "Best"; }
 
 .Play-container:after {
-  content: "Play"; }
+  content: "Robot"; }
 
 p {
   margin-top: 0;
